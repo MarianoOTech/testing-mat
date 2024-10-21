@@ -1,8 +1,8 @@
-export function sumaX(data: number[]): number {
+export function sumaXoY(data: number[]): number {
     return data.reduce((suma, x) => suma + x, 0);
 }
   
-export function sumaYY(data: number[]): number {
+export function sumaXXoYY(data: number[]): number {
     return data.reduce((suma, y) => suma + y * y, 0);
 }
   
