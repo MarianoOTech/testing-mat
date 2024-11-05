@@ -37,9 +37,7 @@ function gammaFunction(n: number): number {
         1.5056327351493116e-7
     ];
 
-    if (n < 0.5) {
-        return Math.PI / (Math.sin(Math.PI * n) * gammaFunction(1 - n));
-    }
+    
  
     n -= 1;
     let x = coeficiente[0];
